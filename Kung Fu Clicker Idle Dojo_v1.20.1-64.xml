@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<TFiveMenu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GameName>Kung Fu Clicker Idle Dojo_v1.20.1</GameName>
+  <TypeAbi>Arm</TypeAbi>
+  <Target>libil2cpp.so</Target>
+  <FunctionList>
+    <OffsetList>
+      <OffsetId>0</OffsetId>
+      <Offset>0x11FBD7D</Offset>
+      <Hex>28</Hex>
+      <HookInfo>
+        <Type>Empty</Type>
+        <FieldInfo>
+          <Type>Empty</Type>
+        </FieldInfo>
+      </HookInfo>
+      <Name>wallet spen</Name>
+      <Method />
+    </OffsetList>
+    <FunctionName>Unlimited Currency</FunctionName>
+    <FunctionType>PatchToggle</FunctionType>
+    <MultipleValue>false</MultipleValue>
+  </FunctionList>
+  <FunctionList>
+    <OffsetList>
+      <OffsetId>0</OffsetId>
+      <Offset>0x10D6870</Offset>
+      <Hex>01 00 A0 E3 1E FF 2F E1</Hex>
+      <HookInfo>
+        <Type>Empty</Type>
+        <FieldInfo>
+          <Type>Empty</Type>
+        </FieldInfo>
+      </HookInfo>
+      <Name>IsInvulnerable</Name>
+      <Method />
+    </OffsetList>
+    <FunctionName>IsInvulnerable</FunctionName>
+    <FunctionType>PatchToggle</FunctionType>
+    <MultipleValue>false</MultipleValue>
+  </FunctionList>
+</TFiveMenu>
