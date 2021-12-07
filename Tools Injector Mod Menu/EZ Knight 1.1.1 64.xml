@@ -1,0 +1,214 @@
+<?xml version="1.0"?>
+<TFiveMenu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GameName>EZ Knight 1.1.1 64</GameName>
+  <TypeAbi>Arm64</TypeAbi>
+  <Target>libil2cpp.so</Target>
+  <FunctionList>
+    <OffsetList>
+      <OffsetId>0</OffsetId>
+      <Offset>0x21E1F2C</Offset>
+      <HookInfo>
+        <Type>Float</Type>
+        <Value>1</Value>
+        <Links />
+        <FieldInfo>
+          <Type>Empty</Type>
+        </FieldInfo>
+      </HookInfo>
+      <Name>get_HpBase</Name>
+      <Method />
+    </OffsetList>
+    <OffsetList>
+      <OffsetId>1</OffsetId>
+      <Offset>0x21E2000</Offset>
+      <HookInfo>
+        <Type>Float</Type>
+        <Value>1</Value>
+        <Links />
+        <FieldInfo>
+          <Type>Empty</Type>
+        </FieldInfo>
+      </HookInfo>
+      <Name>get_HpUp</Name>
+      <Method />
+    </OffsetList>
+    <OffsetList>
+      <OffsetId>2</OffsetId>
+      <Offset>0x21E24F8</Offset>
+      <HookInfo>
+        <Type>Float</Type>
+        <Value>0</Value>
+        <Links />
+        <FieldInfo>
+          <Type>Empty</Type>
+        </FieldInfo>
+      </HookInfo>
+      <Name>get_Dodge</Name>
+      <Method />
+    </OffsetList>
+    <OffsetList>
+      <OffsetId>3</OffsetId>
+      <Offset>0x21E20D4</Offset>
+      <HookInfo>
+        <Type>Float</Type>
+        <Value>0</Value>
+        <Links />
+        <FieldInfo>
+          <Type>Empty</Type>
+        </FieldInfo>
+      </HookInfo>
+      <Name>get_DefBase</Name>
+      <Method />
+    </OffsetList>
+    <OffsetList>
+      <OffsetId>4</OffsetId>
+      <Offset>0x21E21A8</Offset>
+      <HookInfo>
+        <Type>Float</Type>
+        <Value>0</Value>
+        <Links />
+        <FieldInfo>
+          <Type>Empty</Type>
+        </FieldInfo>
+      </HookInfo>
+      <Name>get_DefUp</Name>
+      <Method />
+    </OffsetList>
+    <CheatName>1 Hitkill</CheatName>
+    <FunctionType>HookToggle</FunctionType>
+    <MultipleValue>false</MultipleValue>
+  </FunctionList>
+  <FunctionList>
+    <OffsetList>
+      <OffsetId>0</OffsetId>
+      <Offset>0x21E1D84</Offset>
+      <HookInfo>
+        <Type>Float</Type>
+        <Value>0</Value>
+        <Links />
+        <FieldInfo>
+          <Type>Empty</Type>
+        </FieldInfo>
+      </HookInfo>
+      <Name>get_AtkBase</Name>
+      <Method />
+    </OffsetList>
+    <OffsetList>
+      <OffsetId>1</OffsetId>
+      <Offset>0x21E1E58</Offset>
+      <HookInfo>
+        <Type>Float</Type>
+        <Value>0</Value>
+        <Links />
+        <FieldInfo>
+          <Type>Empty</Type>
+        </FieldInfo>
+      </HookInfo>
+      <Name>get_AtkUp</Name>
+      <Method />
+    </OffsetList>
+    <OffsetList>
+      <OffsetId>2</OffsetId>
+      <Offset>0x21E2350</Offset>
+      <HookInfo>
+        <Type>Float</Type>
+        <Value>0</Value>
+        <Links />
+        <FieldInfo>
+          <Type>Empty</Type>
+        </FieldInfo>
+      </HookInfo>
+      <Name>get_CritDamage</Name>
+      <Method />
+    </OffsetList>
+    <CheatName>God Mode</CheatName>
+    <FunctionType>HookToggle</FunctionType>
+    <MultipleValue>false</MultipleValue>
+  </FunctionList>
+  <FunctionList>
+    <OffsetList>
+      <OffsetId>0</OffsetId>
+      <Offset>0x118B10C</Offset>
+      <HookInfo>
+        <Type>Bool</Type>
+        <Value />
+        <Links />
+        <FieldInfo>
+          <Type>Empty</Type>
+        </FieldInfo>
+      </HookInfo>
+      <Name>IsAutoSkillEnable</Name>
+      <Method />
+    </OffsetList>
+    <OffsetList>
+      <OffsetId>1</OffsetId>
+      <Offset>0x11A4C04</Offset>
+      <HookInfo>
+        <Type>Bool</Type>
+        <Value />
+        <Links />
+        <FieldInfo>
+          <Type>Empty</Type>
+        </FieldInfo>
+      </HookInfo>
+      <Name>IsAutoCopyBoss</Name>
+      <Method />
+    </OffsetList>
+    <OffsetList>
+      <OffsetId>2</OffsetId>
+      <Offset>0x11A4CDC</Offset>
+      <HookInfo>
+        <Type>Bool</Type>
+        <Value />
+        <Links />
+        <FieldInfo>
+          <Type>Empty</Type>
+        </FieldInfo>
+      </HookInfo>
+      <Name>IsAutoCampSkill</Name>
+      <Method />
+    </OffsetList>
+    <CheatName>Auto Play</CheatName>
+    <FunctionType>HookToggle</FunctionType>
+    <MultipleValue>false</MultipleValue>
+  </FunctionList>
+  <FunctionList>
+    <OffsetList>
+      <OffsetId>0</OffsetId>
+      <Offset>0x119B580</Offset>
+      <HookInfo>
+        <Type>Bool</Type>
+        <Value />
+        <Links />
+        <FieldInfo>
+          <Type>Empty</Type>
+        </FieldInfo>
+      </HookInfo>
+      <Name>IsBattleSpeedX3</Name>
+      <Method />
+    </OffsetList>
+    <CheatName>Speed X3</CheatName>
+    <FunctionType>HookToggle</FunctionType>
+    <MultipleValue>false</MultipleValue>
+  </FunctionList>
+  <FunctionList>
+    <OffsetList>
+      <OffsetId>0</OffsetId>
+      <Offset>0x16469CC</Offset>
+      <HookInfo>
+        <Type>Void</Type>
+        <Value />
+        <Links />
+        <FieldInfo>
+          <Type>Bool</Type>
+          <Offset>0x144</Offset>
+        </FieldInfo>
+      </HookInfo>
+      <Name>_isFree</Name>
+      <Method />
+    </OffsetList>
+    <CheatName>Sum Free</CheatName>
+    <FunctionType>HookToggle</FunctionType>
+    <MultipleValue>false</MultipleValue>
+  </FunctionList>
+</TFiveMenu>

@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<TFiveMenu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GameName />
+  <TypeAbi>Arm</TypeAbi>
+  <Target>libil2cpp.so</Target>
+  <FunctionList>
+    <OffsetList>
+      <OffsetId>0</OffsetId>
+      <Offset>0xF616B8</Offset>
+      <Hex>01 00 A0 E3 1E FF 2F E1</Hex>
+      <HookInfo>
+        <Type>Empty</Type>
+        <FieldInfo>
+          <Type>Empty</Type>
+        </FieldInfo>
+      </HookInfo>
+      <Name>WillCharacterMiss</Name>
+      <Method />
+    </OffsetList>
+    <OffsetList>
+      <OffsetId>1</OffsetId>
+      <Offset>0x116E59C</Offset>
+      <Hex>08</Hex>
+      <HookInfo>
+        <Type>Empty</Type>
+        <FieldInfo>
+          <Type>Empty</Type>
+        </FieldInfo>
+      </HookInfo>
+      <Name>CalculateRageAddPerReceiveDamage</Name>
+      <Method />
+    </OffsetList>
+    <OffsetList>
+      <OffsetId>2</OffsetId>
+      <Offset>0x11C4EC0</Offset>
+      <Hex>01 00 A0 E3 1E FF 2F E1</Hex>
+      <HookInfo>
+        <Type>Empty</Type>
+        <FieldInfo>
+          <Type>Empty</Type>
+        </FieldInfo>
+      </HookInfo>
+      <Name>WillCharacterMiss</Name>
+      <Method />
+    </OffsetList>
+    <CheatName>Patch</CheatName>
+    <FunctionType>PatchToggle</FunctionType>
+    <MultipleValue>false</MultipleValue>
+  </FunctionList>
+</TFiveMenu>

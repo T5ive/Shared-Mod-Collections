@@ -1,0 +1,170 @@
+<?xml version="1.0"?>
+<TFiveMenu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GameName>Archer Hunter Offline Action Adventure Game v0.2.5</GameName>
+  <TypeAbi>Arm</TypeAbi>
+  <Target>libil2cpp.so</Target>
+  <FunctionList>
+    <OffsetList>
+      <OffsetId>0</OffsetId>
+      <Offset>0x1B33358</Offset>
+      <Hex>0F 07 02 E3 1E FF 2F E</Hex>
+      <HookInfo>
+        <Type>Empty</Type>
+        <FieldInfo>
+          <Type>Empty</Type>
+        </FieldInfo>
+      </HookInfo>
+      <Name>Hp</Name>
+      <Method />
+    </OffsetList>
+    <OffsetList>
+      <OffsetId>1</OffsetId>
+      <Offset>0x1B33448</Offset>
+      <Hex>0F 07 02 E3 1E FF 2F E</Hex>
+      <HookInfo>
+        <Type>Empty</Type>
+        <FieldInfo>
+          <Type>Empty</Type>
+        </FieldInfo>
+      </HookInfo>
+      <Name>HpUpNext</Name>
+      <Method />
+    </OffsetList>
+    <CheatName>Hp</CheatName>
+    <FunctionType>PatchButtonOnOff</FunctionType>
+    <MultipleValue>false</MultipleValue>
+  </FunctionList>
+  <FunctionList>
+    <OffsetList>
+      <OffsetId>0</OffsetId>
+      <Offset>0x1B335D0</Offset>
+      <Hex>0F 07 02 E3 1E FF 2F E1</Hex>
+      <HookInfo>
+        <Type>Empty</Type>
+        <FieldInfo>
+          <Type>Empty</Type>
+        </FieldInfo>
+      </HookInfo>
+      <Name>Mp</Name>
+      <Method />
+    </OffsetList>
+    <CheatName>Mp</CheatName>
+    <FunctionType>PatchToggle</FunctionType>
+    <MultipleValue>false</MultipleValue>
+  </FunctionList>
+  <FunctionList>
+    <OffsetList>
+      <OffsetId>0</OffsetId>
+      <Offset>0x1B2EB58</Offset>
+      <HookInfo>
+        <Type>Empty</Type>
+        <FieldInfo>
+          <Type>Empty</Type>
+        </FieldInfo>
+      </HookInfo>
+      <Name>AddGold</Name>
+      <Method>
+        <Item1>int</Item1>
+        <Item2>value</Item2>
+      </Method>
+    </OffsetList>
+    <CheatName>AddGold</CheatName>
+    <FunctionType>HookInputButton</FunctionType>
+    <FunctionExtra>0</FunctionExtra>
+    <MultipleValue>false</MultipleValue>
+  </FunctionList>
+  <FunctionList>
+    <OffsetList>
+      <OffsetId>0</OffsetId>
+      <Offset>0x1B33494</Offset>
+      <HookInfo>
+        <Type>Int</Type>
+        <Value>9999</Value>
+        <Links />
+        <FieldInfo>
+          <Type>Empty</Type>
+        </FieldInfo>
+      </HookInfo>
+      <Name>Attack</Name>
+      <Method />
+    </OffsetList>
+    <OffsetList>
+      <OffsetId>1</OffsetId>
+      <Offset>0x1B33584</Offset>
+      <HookInfo>
+        <Type>Int</Type>
+        <Value>9999</Value>
+        <Links />
+        <FieldInfo>
+          <Type>Empty</Type>
+        </FieldInfo>
+      </HookInfo>
+      <Name>AttackUpNext</Name>
+      <Method />
+    </OffsetList>
+    <CheatName>Attack</CheatName>
+    <FunctionType>HookButtonOnOf</FunctionType>
+    <MultipleValue>false</MultipleValue>
+  </FunctionList>
+  <FunctionList>
+    <OffsetList>
+      <OffsetId>0</OffsetId>
+      <Offset>0x1AC4E88</Offset>
+      <HookInfo>
+        <Type>Empty</Type>
+        <FieldInfo>
+          <Type>Empty</Type>
+        </FieldInfo>
+      </HookInfo>
+      <Name>AddDiamond</Name>
+      <Method>
+        <Item1>long</Item1>
+        <Item2>10000</Item2>
+      </Method>
+    </OffsetList>
+    <CheatName>AddDiamond</CheatName>
+    <FunctionType>HookButton</FunctionType>
+    <FunctionExtra>0</FunctionExtra>
+    <MultipleValue>false</MultipleValue>
+  </FunctionList>
+  <FunctionList>
+    <OffsetList>
+      <OffsetId>0</OffsetId>
+      <Offset>0x1AC4EA4</Offset>
+      <HookInfo>
+        <Type>Long</Type>
+        <Links />
+        <FieldInfo>
+          <Type>Empty</Type>
+        </FieldInfo>
+      </HookInfo>
+      <Name>GetDiamond</Name>
+      <Method />
+    </OffsetList>
+    <CheatName>GetDiamond</CheatName>
+    <FunctionType>HookInputValue</FunctionType>
+    <FunctionExtra />
+    <MultipleValue>false</MultipleValue>
+  </FunctionList>
+  <FunctionList>
+    <OffsetList>
+      <OffsetId>0</OffsetId>
+      <Offset>0x71F970</Offset>
+      <HookInfo>
+        <Type>Empty</Type>
+        <FieldInfo>
+          <Type>Empty</Type>
+        </FieldInfo>
+      </HookInfo>
+      <Name>AddExp</Name>
+      <Method>
+        <Item1>float</Item1>
+        <Item2>1000</Item2>
+      </Method>
+    </OffsetList>
+    <CheatName>AddExp</CheatName>
+    <FunctionType>HookButton</FunctionType>
+    <FunctionExtra>0</FunctionExtra>
+    <MultipleValue>false</MultipleValue>
+  </FunctionList>
+</TFiveMenu>

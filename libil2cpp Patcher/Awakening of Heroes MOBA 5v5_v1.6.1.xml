@@ -1,0 +1,1 @@
+﻿<NewDataSet><Patcher><Name>hideAllInvisiblePlayer</Name><Offset>0x764314</Offset><Byte>00 00 A0 E3 1E FF 2F E1</Byte></Patcher><Patcher><Name>MakeHeroInvisible</Name><Offset>0x764E4C</Offset><Byte>00 00 A0 E3 1E FF 2F E1</Byte></Patcher></NewDataSet>

@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<TFiveMenu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GameName>Epic Fantasy v1.7.4 - 64</GameName>
+  <TypeAbi>Arm64</TypeAbi>
+  <Target>libil2cpp.so</Target>
+  <FunctionList>
+    <OffsetList>
+      <OffsetId>0</OffsetId>
+      <Offset>0xE00E60</Offset>
+      <HookInfo>
+        <Type>Int</Type>
+        <Value>5000</Value>
+        <Links />
+        <FieldInfo>
+          <Type>Empty</Type>
+        </FieldInfo>
+      </HookInfo>
+      <Name>Attack</Name>
+      <Method />
+    </OffsetList>
+    <CheatName>BalanceData.RaceData</CheatName>
+    <FunctionType>HookToggle</FunctionType>
+    <MultipleValue>false</MultipleValue>
+  </FunctionList>
+  <FunctionList>
+    <OffsetList>
+      <OffsetId>0</OffsetId>
+      <Offset>0x16AAA10</Offset>
+      <HookInfo>
+        <Type>Int</Type>
+        <Value>3000</Value>
+        <Links />
+        <FieldInfo>
+          <Type>Empty</Type>
+        </FieldInfo>
+      </HookInfo>
+      <Name>Atk</Name>
+      <Method />
+    </OffsetList>
+    <CheatName>BattleActorStat</CheatName>
+    <FunctionType>HookToggle</FunctionType>
+    <MultipleValue>false</MultipleValue>
+  </FunctionList>
+  <FunctionList>
+    <OffsetList>
+      <OffsetId>0</OffsetId>
+      <Offset>0x137F4FC</Offset>
+      <HookInfo>
+        <Type>Void</Type>
+        <Value>8000</Value>
+        <Links />
+        <FieldInfo>
+          <Type>Int</Type>
+          <Offset>0x20</Offset>
+        </FieldInfo>
+      </HookInfo>
+      <Name>realDamage</Name>
+      <Method />
+    </OffsetList>
+    <OffsetList>
+      <OffsetId>1</OffsetId>
+      <Offset>0x137F4FC</Offset>
+      <HookInfo>
+        <Type>Void</Type>
+        <Value>8000</Value>
+        <Links />
+        <FieldInfo>
+          <Type>Int</Type>
+          <Offset>0x24</Offset>
+        </FieldInfo>
+      </HookInfo>
+      <Name>finalDamage</Name>
+      <Method />
+    </OffsetList>
+    <CheatName>DamageSystem</CheatName>
+    <FunctionType>HookToggle</FunctionType>
+    <MultipleValue>false</MultipleValue>
+  </FunctionList>
+  <FunctionList>
+    <OffsetList>
+      <OffsetId>0</OffsetId>
+      <Offset>0xDF89E4</Offset>
+      <HookInfo>
+        <Type>Int</Type>
+        <Links />
+        <FieldInfo>
+          <Type>Empty</Type>
+        </FieldInfo>
+      </HookInfo>
+      <Name>Gold</Name>
+      <Method />
+    </OffsetList>
+    <CheatName>ProtocolActorUsedResSchema</CheatName>
+    <FunctionType>HookSeekBarToggle</FunctionType>
+    <FunctionExtra>1_1000</FunctionExtra>
+    <MultipleValue>false</MultipleValue>
+  </FunctionList>
+</TFiveMenu>

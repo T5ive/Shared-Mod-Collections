@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<TFiveMenu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GameName />
+  <TypeAbi>Arm64</TypeAbi>
+  <Target>libil2cpp.so</Target>
+  <FunctionList>
+    <OffsetList>
+      <OffsetId>0</OffsetId>
+      <Offset>0x924324</Offset>
+      <Hex>DA 03</Hex>
+      <HookInfo>
+        <Type>Empty</Type>
+        <FieldInfo>
+          <Type>Empty</Type>
+        </FieldInfo>
+      </HookInfo>
+      <Name>SubCoin op_Subtraction -&gt; op_Addition</Name>
+      <Method />
+    </OffsetList>
+    <OffsetList>
+      <OffsetId>1</OffsetId>
+      <Offset>0x9249F3</Offset>
+      <Hex>AB </Hex>
+      <HookInfo>
+        <Type>Empty</Type>
+        <FieldInfo>
+          <Type>Empty</Type>
+        </FieldInfo>
+      </HookInfo>
+      <Name>SubPoint SUBS-&gt;ADDS</Name>
+      <Method />
+    </OffsetList>
+    <CheatName>Unlimited Currency</CheatName>
+    <FunctionType>PatchToggle</FunctionType>
+    <MultipleValue>false</MultipleValue>
+  </FunctionList>
+  <FunctionList>
+    <OffsetList>
+      <OffsetId>0</OffsetId>
+      <Offset>0x9242EE</Offset>
+      <Hex>00 32</Hex>
+      <HookInfo>
+        <Type>Empty</Type>
+        <FieldInfo>
+          <Type>Empty</Type>
+        </FieldInfo>
+      </HookInfo>
+      <Name>SubCoin (Return 0 -&gt; 1)</Name>
+      <Method />
+    </OffsetList>
+    <OffsetList>
+      <OffsetId>1</OffsetId>
+      <Offset>0x9249FA</Offset>
+      <Hex>00 32</Hex>
+      <HookInfo>
+        <Type>Empty</Type>
+        <FieldInfo>
+          <Type>Empty</Type>
+        </FieldInfo>
+      </HookInfo>
+      <Name>SubPoint (Return 0 -&gt; 1)</Name>
+      <Method />
+    </OffsetList>
+    <CheatName>Currency Dont Decrease</CheatName>
+    <FunctionType>PatchToggle</FunctionType>
+    <MultipleValue>false</MultipleValue>
+  </FunctionList>
+</TFiveMenu>

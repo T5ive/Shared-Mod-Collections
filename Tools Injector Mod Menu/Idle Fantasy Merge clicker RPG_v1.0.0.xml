@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<TFiveMenu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GameName>Idle Fantasy Merge clicker RPG_v1.0.0</GameName>
+  <TypeAbi>Arm</TypeAbi>
+  <Target>libil2cpp.so</Target>
+  <FunctionList>
+    <OffsetList>
+      <OffsetId>0</OffsetId>
+      <Offset>0x4D9AA0</Offset>
+      <Hex>01 00 A0 E3 1E FF 2F E1</Hex>
+      <HookInfo>
+        <Type>Empty</Type>
+        <FieldInfo>
+          <Type>Empty</Type>
+        </FieldInfo>
+      </HookInfo>
+      <Name>SubCoin</Name>
+      <Method />
+    </OffsetList>
+    <OffsetList>
+      <OffsetId>1</OffsetId>
+      <Offset>0x4DA4C8</Offset>
+      <Hex>01 00 A0 E3 1E FF 2F E1</Hex>
+      <HookInfo>
+        <Type>Empty</Type>
+        <FieldInfo>
+          <Type>Empty</Type>
+        </FieldInfo>
+      </HookInfo>
+      <Name>SubPoint</Name>
+      <Method />
+    </OffsetList>
+    <CheatName>unlimited</CheatName>
+    <FunctionType>PatchToggle</FunctionType>
+    <MultipleValue>false</MultipleValue>
+  </FunctionList>
+</TFiveMenu>
