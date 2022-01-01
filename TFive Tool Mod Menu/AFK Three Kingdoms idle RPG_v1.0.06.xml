@@ -1,0 +1,167 @@
+<?xml version="1.0"?>
+<TFiveMenu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GameName>AFK Three Kingdoms idle RPG_v1.0.06</GameName>
+  <TypeAbi>Arm64</TypeAbi>
+  <Target>libil2cpp.so</Target>
+  <FunctionList>
+    <OffsetList>
+      <OffsetId>0</OffsetId>
+      <Offset>0x741EAB</Offset>
+      <Hex>8B</Hex>
+      <HookInfo>
+        <Type>Empty</Type>
+        <FieldInfo>
+          <Type>Empty</Type>
+        </FieldInfo>
+      </HookInfo>
+      <Name>UseAdSkipTicket</Name>
+      <Method />
+    </OffsetList>
+    <OffsetList>
+      <OffsetId>1</OffsetId>
+      <Offset>0x74AC24</Offset>
+      <Hex>E2 B9</Hex>
+      <HookInfo>
+        <Type>Empty</Type>
+        <FieldInfo>
+          <Type>Empty</Type>
+        </FieldInfo>
+      </HookInfo>
+      <Name>UseCoin</Name>
+      <Method />
+    </OffsetList>
+    <OffsetList>
+      <OffsetId>2</OffsetId>
+      <Offset>0x74AFE4</Offset>
+      <Hex>F2 B8</Hex>
+      <HookInfo>
+        <Type>Empty</Type>
+        <FieldInfo>
+          <Type>Empty</Type>
+        </FieldInfo>
+      </HookInfo>
+      <Name>UseJewel</Name>
+      <Method />
+    </OffsetList>
+    <OffsetList>
+      <OffsetId>3</OffsetId>
+      <Offset>0x74B3E4</Offset>
+      <Hex>F2 B7</Hex>
+      <HookInfo>
+        <Type>Empty</Type>
+        <FieldInfo>
+          <Type>Empty</Type>
+        </FieldInfo>
+      </HookInfo>
+      <Name>UsePearl</Name>
+      <Method />
+    </OffsetList>
+    <OffsetList>
+      <OffsetId>4</OffsetId>
+      <Offset>0x74B814</Offset>
+      <Hex>E6 B6</Hex>
+      <HookInfo>
+        <Type>Empty</Type>
+        <FieldInfo>
+          <Type>Empty</Type>
+        </FieldInfo>
+      </HookInfo>
+      <Name>UsePill</Name>
+      <Method />
+    </OffsetList>
+    <OffsetList>
+      <OffsetId>5</OffsetId>
+      <Offset>0x74BB47</Offset>
+      <Hex>8B</Hex>
+      <HookInfo>
+        <Type>Empty</Type>
+        <FieldInfo>
+          <Type>Empty</Type>
+        </FieldInfo>
+      </HookInfo>
+      <Name>UseEnergy</Name>
+      <Method />
+    </OffsetList>
+    <OffsetList>
+      <OffsetId>6</OffsetId>
+      <Offset>0x74BE6F</Offset>
+      <Hex>8B</Hex>
+      <HookInfo>
+        <Type>Empty</Type>
+        <FieldInfo>
+          <Type>Empty</Type>
+        </FieldInfo>
+      </HookInfo>
+      <Name>UseStar</Name>
+      <Method />
+    </OffsetList>
+    <OffsetList>
+      <OffsetId>7</OffsetId>
+      <Offset>0x74C073</Offset>
+      <Hex>8B</Hex>
+      <HookInfo>
+        <Type>Empty</Type>
+        <FieldInfo>
+          <Type>Empty</Type>
+        </FieldInfo>
+      </HookInfo>
+      <Name>UsePick</Name>
+      <Method />
+    </OffsetList>
+    <OffsetList>
+      <OffsetId>8</OffsetId>
+      <Offset>0x74C43B</Offset>
+      <Hex>8B</Hex>
+      <HookInfo>
+        <Type>Empty</Type>
+        <FieldInfo>
+          <Type>Empty</Type>
+        </FieldInfo>
+      </HookInfo>
+      <Name>UseFriendShip</Name>
+      <Method />
+    </OffsetList>
+    <OffsetList>
+      <OffsetId>9</OffsetId>
+      <Offset>0x74C66F</Offset>
+      <Hex>8B</Hex>
+      <HookInfo>
+        <Type>Empty</Type>
+        <FieldInfo>
+          <Type>Empty</Type>
+        </FieldInfo>
+      </HookInfo>
+      <Name>UseScroll</Name>
+      <Method />
+    </OffsetList>
+    <OffsetList>
+      <OffsetId>10</OffsetId>
+      <Offset>0x74C907</Offset>
+      <Hex>8B</Hex>
+      <HookInfo>
+        <Type>Empty</Type>
+        <FieldInfo>
+          <Type>Empty</Type>
+        </FieldInfo>
+      </HookInfo>
+      <Name>UseRedScroll</Name>
+      <Method />
+    </OffsetList>
+    <OffsetList>
+      <OffsetId>11</OffsetId>
+      <Offset>0x74CB87</Offset>
+      <Hex>8B</Hex>
+      <HookInfo>
+        <Type>Empty</Type>
+        <FieldInfo>
+          <Type>Empty</Type>
+        </FieldInfo>
+      </HookInfo>
+      <Name>UseTowerSweepTicket</Name>
+      <Method />
+    </OffsetList>
+    <FunctionName>Unlimited Currencies</FunctionName>
+    <FunctionType>PatchBackground</FunctionType>
+    <MultipleValue>false</MultipleValue>
+  </FunctionList>  
+</TFiveMenu>
